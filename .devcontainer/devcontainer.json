@@ -1,0 +1,14 @@
+{
+    "name":"Book club",
+    "dockerFile": "Dockerfile",
+    "appPort": [3000],
+    "runArgs": ["-u", "node"],
+    "settings": {
+        "workbench.colorTheme": "Cobalt2"
+    },
+    "postAttachCommand": "npm install",
+    "extensions": [
+        "esbenp.prettier-vscode",
+        "wesbos.theme-cobalt2"
+    ]
+}
